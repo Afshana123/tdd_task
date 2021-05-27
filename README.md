@@ -64,7 +64,7 @@ class CalcTask:
 ````
 The command `python -m unittest` was run again to ensure all 4 tests pass.
 
--[x] All tests passed 
+- [x] All tests passed 
 
 
 
