@@ -7,14 +7,14 @@ The exercise is as follows:
 - [x] Create a new git hub repo and project in Pycharm.
 - [x] Create tests for functions cm to inches, modular, triangle calculation and calculate %.
 - [x] Write the code to pass all the tests.
-- [X] create 2 files 1 for tests and 1 for functional code
+- [X] create 2 files 1 for tests and 1 for functional code.
 - [x] Apply OOP to achieve the desired results.
 
 ## My Solution
 
 Installed pytest with the command `pip install pytest`. 
 
-A new python test file was created and a code was written as shown below in order to check and pass all the tests.
+A new python test file was created, and a code was written as shown below in order to check and pass all the tests.
 
 ```python
 import pytest
@@ -38,9 +38,9 @@ class Calctest_task(unittest.TestCase):
     def test_area_of_triangle(self):
         self.assertEqual(self.calc.area_of_triangle(10, 2), 10)
 ```
-The command `python -m unittest` was run to run the test 
+The command `python -m unittest` was run to run the test.
 
-Another file was created with a class created with the functional code written as according to the requirements of the task.
+Another file was created with a class, and the functional code was written as according to the requirements of the task.
 
 ````python
 class CalcTask:
@@ -64,7 +64,7 @@ class CalcTask:
 ````
 The command `python -m unittest` was run again to ensure all 4 tests pass.
 
-- [x] All tests passed 
+- [x] All tests passed.
 
 
 
